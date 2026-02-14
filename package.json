@@ -1,0 +1,32 @@
+{
+  "name": "backend-node-express",
+  "version": "1.0.0",
+  "description": "This repository contains the code I write while learning backend development using Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParmeetBhamrah/backend-node-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ParmeetBhamrah/backend-node-express/issues"
+  },
+  "homepage": "https://github.com/ParmeetBhamrah/backend-node-express#readme",
+  "dependencies": {
+    "@prisma/adapter-neon": "^7.4.0",
+    "@prisma/client": "^7.4.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prisma": "^7.4.0"
+  }
+}
